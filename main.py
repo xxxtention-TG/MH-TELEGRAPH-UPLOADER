@@ -65,7 +65,7 @@ ABOUT_TEXT = """--**About Me**-- 😎
 
 📢 **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
 
-👥 **Group :** [Developer Team](https://telegram.me/TheDeveloperTeam
+👥 **Group :** [Developer Team](https://telegram.me/TheDeveloperTeam)
 
 🌐 **Source :** [👉 Click here](https://github.com/FayasNoushad/Telegraph-Uploader-Bot-V2)
 
