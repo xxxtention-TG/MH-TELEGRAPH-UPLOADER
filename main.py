@@ -40,7 +40,7 @@ I am small media or file to telegra.ph link uploader bot.**
 
 >> `I can convert under 5MB photo or video to telegraph link.`
 
-Made by @FayasNoushad"""
+Made by @Mo_Tech_YT"""
 
 HELP_TEXT = """**Hey, Follow these steps:**
 
@@ -55,7 +55,7 @@ HELP_TEXT = """**Hey, Follow these steps:**
 /about - For more about me
 /status - For bot updates
 
-Made by @FayasNoushad"""
+Made by @Mo_Tech_YT"""
 
 ABOUT_TEXT = """--**About Me**-- 😎
 
@@ -63,11 +63,13 @@ ABOUT_TEXT = """--**About Me**-- 😎
 
 👨‍💻 **Developer :** [Fayas](https://github.com/FayasNoushad)
 
-📢 **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
+👨‍💻 **Editor :** [Muhammed](https://github.com/Mrk_yt)
 
-👥 **Group :** [Developer Team](https://telegram.me/TheDeveloperTeam)
+📢 **Channel :** [Mo Tech Channel](https://telegram.me/Mo_Tech_YT)
 
-🌐 **Source :** [👉 Click here](https://github.com/FayasNoushad/Telegraph-Uploader-Bot-V2)
+👥 **Group :** [Mo Tech Group](https://telegram.me/Mo_Tech_Group)
+
+🌐 **Source :** [👉 Click here](https://github.com/MRK-YT/Telegraph-Uploader-Bot-V2)
 
 📝 **Language :** [Python3](https://python.org)
 
@@ -79,6 +81,8 @@ FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for us
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
+        InlineKeyboardButton('🖥️ Deploy Video 💫', url='t.me/Mo_Tech_YT'),
+        ],[
         InlineKeyboardButton('⚙ Help', callback_data='help'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
         InlineKeyboardButton('Close ✖️', callback_data='close')
@@ -87,6 +91,8 @@ START_BUTTONS = InlineKeyboardMarkup(
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
+        InlineKeyboardButton('🖥️ Deploy Video 💫', url='t.me/Mo_Tech_YT'),
+        ],[
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
         InlineKeyboardButton('Close ✖️', callback_data='close')
@@ -95,6 +101,8 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
+        InlineKeyboardButton('🖥️ Deploy Video 💫', url='t.me/Mo_Tech_YT'),
+        ],[
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('Help ⚙', callback_data='help'),
         InlineKeyboardButton('Close ✖️', callback_data='close')
@@ -234,7 +242,12 @@ async def telegraph_upload(bot, update):
                     InlineKeyboardButton(text="Open Link", url=f"https://telegra.ph{response[0]}"),
                     InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
                 ],
-                [InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/FayasNoushad")]
+                [  
+                    InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/FayasNoushad")
+                ],
+                [
+                    InlineKeyboardButton('🖥️ Deploy Video 💫', url='t.me/Mo_Tech_YT')
+                ]
             ]
         )
     )
