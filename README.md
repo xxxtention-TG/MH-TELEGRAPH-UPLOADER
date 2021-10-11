@@ -11,6 +11,16 @@ Copyright permission under MIT License
 License -> https://github.com/FayasNoushad/Telegraph-Uploader-Bot-V2/blob/main/LICENSE
 ```
 
+
+<details><summary>Deploy To Heroku</summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/MRK-YT/Telegraph-Uploader-Bot-V2">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+</details>
+
 ---
 
 ## Deploy
