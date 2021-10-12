@@ -23,6 +23,9 @@ License -> https://github.com/FayasNoushad/Telegraph-Uploader-Bot-V2/blob/main/L
 
 ---
 
+# [Deply Video](https://youtu.be/c-GfUfriP50)
+
+
 ## Deploy
 
 ```sh
