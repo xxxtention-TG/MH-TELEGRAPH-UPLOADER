@@ -81,7 +81,7 @@ FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for us
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ Deploy Video 💫', url='t.me/Mo_Tech_YT'),
+        InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50'),
         ],[
         InlineKeyboardButton('⚙ Help', callback_data='help'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
@@ -91,7 +91,7 @@ START_BUTTONS = InlineKeyboardMarkup(
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ Deploy Video 💫', url='t.me/Mo_Tech_YT'),
+        InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50'),
         ],[
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
@@ -101,7 +101,7 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ Deploy Video 💫', url='t.me/Mo_Tech_YT'),
+        InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50'),
         ],[
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('Help ⚙', callback_data='help'),
@@ -234,7 +234,7 @@ async def telegraph_upload(bot, update):
         print(error)
         return
     await text.edit_text(
-        text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>\n\n<b>Join :-</b> @FayasNoushad",
+        text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>\n\n<b>Join :-</b> @MT_Botz",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -246,7 +246,7 @@ async def telegraph_upload(bot, update):
                     InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/FayasNoushad")
                 ],
                 [
-                    InlineKeyboardButton('🖥️ Deploy Video 💫', url='t.me/Mo_Tech_YT')
+                    InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50')
                 ]
             ]
         )
